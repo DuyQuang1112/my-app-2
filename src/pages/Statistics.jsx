@@ -1,4 +1,4 @@
-import SubHeader from "../components/header/Subheader";
+import SubHeader from "../components/header/SubHeader";
 import StatisticsChart from "../components/statistics/StatisticsChart";
 import RecentTransactions from "../components/transactions/RecentTransactions";
 import NavigationBar from "../components/common/NavigationBar";

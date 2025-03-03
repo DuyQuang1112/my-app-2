@@ -1,4 +1,4 @@
-import Subheader from "../components/header/Subheader";
+import Subheader from "../components/header/SubHeader";
 import TopUpMethod from "../components/topup/TopUpMethod";
 import TopUpAmount from "../components/topup/TopUpAmount";
 import DetailTopUp from "../components/topup/DetailTopUp";
