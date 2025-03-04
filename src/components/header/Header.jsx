@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="mt-6 relative p-4 flex justify-between items-center">
       <div className="flex items-center">
-        <img src="https://placehold.co/50x50" alt="Logo" className="h-14 w-14 mr-2 rounded-full" />
+        <img src="/image/netflix-1-logo-svgrepo-com.svg" alt="Logo" className="h-14 w-14 mr-2 rounded-full" />
         <span className="text-xl font-bold">Neopay</span>
       </div>
       <div className="flex items-center">

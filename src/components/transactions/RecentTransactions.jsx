@@ -23,7 +23,7 @@ const RecentTransactions = () => {
       <div className="flex-1 overflow-y-auto">
         <ul className="list-none p-0">
           {transactions.map(transaction => (
-            <li key={transaction.id} className=" mb-4 flex justify-between items-center">
+            <li key={transaction.id} className=" mb-4 flex justify-between items-center bg-gray-100 p-2 rounded-[20px]">
               <div className="flex items-center">
                 <img src={transaction.avatar} alt="avatar" className="w-10 h-10 rounded-full mr-2" />
                 <div>
