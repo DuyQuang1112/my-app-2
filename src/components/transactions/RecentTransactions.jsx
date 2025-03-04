@@ -13,7 +13,7 @@ const transactions = [
 
 const RecentTransactions = () => {
   return (
-    <div className="mt-6 w-[376px] h-full flex flex-col">
+    <div className="mt-6 w-full h-full flex flex-col">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold">Recent Transactions</h2>
         <a href="#" className="text-blue-500">Show More</a>

@@ -18,7 +18,7 @@ const NavigationBar = () => {
       {menuItems.map((item) => (
         <button
           key={item.path} 
-          className={`h-[50px] flex flex-row items-center rounded-[30px] pr-5 pl-5 transition ${location.pathname === item.path ? "text-black bg-gray-300" : "text-white"
+          className={`h-[50px] w-[100px] flex flex-row items-center rounded-[30px] pr-5 pl-5 transition ${location.pathname === item.path ? "text-black bg-gray-300" : "text-white"
             }`}
           onClick={() => navigate(item.path)}
           aria-label={item.name}

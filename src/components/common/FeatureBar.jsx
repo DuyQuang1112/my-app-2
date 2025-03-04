@@ -10,7 +10,7 @@ const FeatureBar = () => {
       ];
     
       return (
-        <div className="mt-6 w-[376px] flex justify-around">
+        <div className="mt-6 w-full flex justify-around">
           {menuItems.map(item => (
             <div key={item.id} className="flex flex-col items-center">
                 <div className="w-12 h-12 flex items-center justify-center border border-gray-400 rounded-full">
